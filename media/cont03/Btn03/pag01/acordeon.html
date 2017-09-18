@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">	
+</head>
+<body background="back-popUp.jpg">
+	<dl>
+		<dt><img src="img/Acordeon01.png"></dt>
+		<dd><img src="img/Acordeonuno.png"></dd>
+
+		<dt><img src="img/Acordeon02.png"></dt>
+		<dd><img src="img/Acordeondos.png"></dd>
+
+		<dt><img src="img/Acordeon03.png"></dt>
+		<dd><img src="img/Acordeontres.png"></dd>
+
+		<dt><img src="img/Acordeon04.png"></dt>
+		<dd><img src="img/Acordeoncuatro.png"></dd>
+
+		<dt><img src="img/Acordeon05.png"></dt>
+		<dd><img src="img/Acordeoncinco.png"></dd>
+
+	</dl>	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+	   $('dl dd').hide();
+       $('dl dt').click(function(){
+          if ($(this).hasClass('activo')) {
+               $(this).removeClass('activo');
+               $(this).next().slideUp();
+          } else {
+               $('dl dt').removeClass('activo');
+               $(this).addClass('activo');
+               $('dl dd').slideUp();
+               $(this).next().slideDown();
+          }
+       });
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+
+/*body{
+    background: url(../img/back-popUp.png) no-repeat;
+    width: 900px;
+    height: 540px;
+}*/
+.menuP1{
+    width: 875px;
+    height: 160px;
+    position: absolute;
+    margin: 124px 0 0 0;
+    display: flex;
+    padding: 0 0 0 10px;
+}
+.btnp1{
+    width: 122px;
+    height: 123px;
+    cursor: pointer;
+    margin: 17px -2px 0 0;
+}
+.contP1{
+    overflow: hidden;
+    width: 854px;
+    height: 171px;
+    margin: 226px 0 0 5px;
+    position: absolute;
+}
+.acordeon{
+    position: absolute;
+    margin: 90px 0 0 10px;
+}
+
+.cont_accordeon{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 30px;
+}
+
+.pos-btnExtras1{
+    position: absolute;
+    margin: -66px 0px 0px -305px !important;
+}
+
+.pos-btnExtras2{
+    position: absolute;
+    margin: -265px 0px 0px -190px;
+}
+
+.pos-btnExtras3{
+    position: absolute;
+    margin: -66px 0px 0px -30px;
+}
+
+.btn1{
+    position: absolute;
+    margin: 0px 0px 0px -3px !important;
+}
+.btn2{
+    position: absolute;
+    margin: 0px 0px 0px 45px !important;
+}

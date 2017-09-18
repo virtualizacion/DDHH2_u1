@@ -1,0 +1,139 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(../images/back.png);
+    /*overflow: hidden;*/
+}
+.contenedor{
+    width: 1000px;
+    height: 800px; 
+    margin: 0 auto;
+}
+.ova{
+    width: 1000px;
+    height: 600px; 
+    background: url(../images/recurso1.png) no-repeat;
+}
+.top{
+    background: #FFF url(../images/top.png) no-repeat;
+    width: 1000px;
+    height: 117px;
+    position: relative;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.6);
+}
+.nombreFranja{
+    background: url(../images/franja.png) no-repeat;
+    width: 608px;
+    height: 35px;
+    float: right;
+    margin: 10px 0 0 0;
+}
+.btns{
+    height: 80px;
+    width: 170px;
+    float: right;
+    position: relative;
+    bottom: -45px;
+    right: 5px;
+    top: 75px;
+}
+.btnTop{
+    position: relative;
+    float: left;
+    cursor: pointer;
+}
+.creditos{
+    background: #1d3f74;
+    height: 48px;
+    padding: 14px 20px 0 0;
+    margin: 0 0 10px 0;
+}
+.creditos p{
+    color: #FFF;
+    line-height: 140%;
+    margin: 0;
+    padding: 0;
+    font-size: 11px;
+    text-align: right;
+}
+.btnTop img{
+    width: 65px;
+    height: 65px;
+}
+.pdf{
+    background: url(../images/bt_pdf.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.pdf{
+    background: url(../images/bt_pdf.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.popUp{
+    background: url(../images/bt_popUp.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+.web{
+    background: url(../images/bt_web.svg) no-repeat;
+    width: 65px;
+    height: 65px;
+}
+
+
+/*BOTONES HOME*/
+.menuHome{
+    background: rgba(255, 0, 0, 0);
+    width: 670px;
+    height: 505px;
+    position: absolute;
+    margin: 0 0 0 230px;
+}
+.btnHome1{
+    background: url(../images/recurso14.png) no-repeat;
+    width: 222px;
+    height: 63px;
+    position: absolute;
+    margin: 181px 0 0 47px;
+    cursor: pointer;
+    top: 133px;
+    /*left: 412px;*/
+}
+.btnHome2{
+    background: url(../images/recurso13.png) no-repeat;
+    width: 222px;
+    height: 63px;
+    position: absolute;
+    margin: 125px 0 0 465px;
+    cursor: pointer;
+    top: 210px;
+    /*left: 412px;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

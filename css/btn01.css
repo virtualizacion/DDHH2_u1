@@ -1,0 +1,144 @@
+body{
+    overflow: hidden;
+}
+
+.botonesP1{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin: 475px 0 0 20px;
+}
+.btnP1{
+    margin: 0 10px 0 0;
+    cursor: pointer;
+}
+.contP1{
+    overflow: hidden;
+    width: 824px;
+    height: 293px;
+    position: absolute;
+    margin: 100px 0 0 17px;
+}
+.btnExtras{
+    position: absolute;
+    margin: 100px 0 0 100px;
+}
+
+.botones2{
+    position: absolute;
+    margin: 120px 0 0 745px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+
+
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+    /*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+.arrowPrev{
+    background: url('img/recurso31.png') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(img/recurso32.png) no-repeat;
+    right: 0px;
+    width: 30px;
+    height: 40px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+.pdf01{
+    position: absolute;
+    margin: 0;
+    z-index: 3;
+    margin: -50px 0 0 0;
+    right: 90px;
+}
+
+.pos-btnExtras{
+    position: absolute;
+    margin: -125px 10px 10px 150px;
+}
+
+.btn1{
+    position: absolute;
+    margin: 217px 0 0 81px;
+}
+.btn2{
+    position: absolute;
+    margin: 217px 0 0 301px;
+}
+.btn3{
+    position: absolute;
+    margin: 217px 0 0 521px;
+}
+.btn4{
+    position: absolute;
+    margin: 217px 0 0 741px;
+}
+
+.cont01{
+    position: absolute;
+    left: 12.5%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cont02{
+    position: absolute;
+    left: 36.5%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cont03{
+    position: absolute;
+    left: 60%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cont04{
+    position: absolute;
+    left: 83%;
+    top: 96%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+

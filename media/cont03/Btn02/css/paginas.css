@@ -1,0 +1,218 @@
+.divP2{
+    background: url(../img/pagina02.png) no-repeat;
+    width: 875px;
+    height: 540px;
+}
+/*PAGINA 2*/
+.menuP2{
+    width: 455px;
+    height: 455px;
+    position: absolute;
+    margin: 83px 0 0 21px;
+}
+.btn1P2{
+    background: url(../img/P2-bt1.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: -14px 0 0 347px;
+}
+.btn2P2{
+    background: url(../img/P2-bt2.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 39px 0 0 475px;
+}
+.btn3P2{
+    background: url(../img/P2-bt3.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 167px 0 0 528px;
+}
+.btn4P2{
+    background: url(../img/P2-bt4.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 295px 0 0 475px;
+}
+.btn5P2{
+    background: url(../img/P2-bt5.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 349px 0 0 346px;
+}
+.btn6P2{
+    background: url(../img/P2-bt6.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 295px 0 0 218px;
+}
+.btn7P2{
+    background: url(../img/P2-bt7.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 167px 0 0 165px;
+}
+.btn8P2{
+    background: url(../img/P2-bt8.png) no-repeat;
+    cursor: pointer;
+    width: 98px;
+    height: 98px;
+    position: absolute;
+    margin: 39px 0 0 218px;
+}
+.con1P2{
+    background: url(../img/P2-con1.png) no-repeat;
+    width: 355px;
+    height: 145px;
+    position: absolute;
+    margin: 135px 0 0 371px;
+}
+.con2P2{
+    background: url(../img/P2-con2.png) no-repeat;
+    width: 278px;
+    height: 172px;
+    position: absolute;
+    margin: 188px 0 0 480px;
+}
+.con3P2{
+    background: url(../img/P2-con3.png) no-repeat;
+    width: 458px;
+    height: 198px;
+    position: absolute;
+    margin: 318px 0 0 360px;
+}
+.con4P2{
+    background: url(../img/P2-con4.png) no-repeat;
+    width: 366px;
+    height: 174px;
+    position: absolute;
+    margin: 224px 0 0 487px;
+}
+.con5P2{
+    background: url(../img/P2-con5.png) no-repeat;
+    width: 343px;
+    height: 163px;
+    position: absolute;
+    margin: 285px 0 0 370px;
+}
+.con6P2{
+    background: url(../img/P2-con6.png) no-repeat;
+    width: 311px;
+    height: 159px;
+    position: absolute;
+    margin: 241px 0 0 23px;
+}
+.con7P2{
+    background: url(../img/P2-con7.png) no-repeat;
+    width: 342px;
+    height: 165px;
+    position: absolute;
+    margin: 107px 0 0 23px;
+}
+.con8P2{
+    background: url(../img/P2-con8.png) no-repeat;
+    width: 355px;
+    height: 152px;
+    position: absolute;
+    margin: 195px 0 0 23px;
+}
+.clsP2{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+/*PAGINA 3*/
+.Icon-tooltip{
+    position: relative;
+    margin: 0;
+    right: 90px;
+    cursor: pointer;
+    float: right;
+}
+.Icon-tooltip-P3{
+    position: absolute;
+    margin: 0;
+    right: 160px;
+    cursor: pointer;
+    float: right;
+    bottom: -77px;
+}
+.tool1{
+    position: absolute;
+    margin: 265px 0 0 320px;
+    z-index: 6;
+    width: 491px;
+    height: 264px;
+}
+.tool1 .cls{
+    position: absolute;
+    right: -3px;
+    top: -3px;
+    cursor: pointer;
+}
+.inter{
+    margin: -60px 44px 0 0;
+    width: 425px;
+    height: 100px;
+    right: 0;
+    position: absolute;
+}
+.btnExtras{
+    position: absolute;
+    margin: 468px 0 0 625px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 0 0;
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.mapa{
+    position: absolute;
+    margin: 100px 0 0 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

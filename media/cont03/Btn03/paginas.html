@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Páginas</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/paginas.css">
+  <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+  <script src="js/jPages.js"></script>
+  <script src="js/paginas.js"></script>
+
+<script>
+/* when document is ready */
+$(function() {
+    /* initiate pugin assigning the desired button labels  */
+    $("div.holder").jPages({
+        containerID : "itemContainer",
+        perPage     : 1,
+        first       : false,
+        previous    : "span.arrowPrev",
+        next        : "span.arrowNext",
+        last        : false
+    });
+});
+</script>
+
+<style type="text/css">
+    body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+.arrowPrev{
+    background: url('img/arrowP.svg') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(img/arrowN.svg) no-repeat;
+    right: 0px;
+    width: 30px;
+    height: 40px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+  
+  </style>
+
+</head>
+
+<body background="back-popUp.jpg">
+
+  <div id="container" class="clearfix">
+
+  <div id="content" class="defaults">
+
+   <!-- navigation holder -->
+    <div class="holder"></div>
+
+    <!-- wrapped custom buttons for easier styling -->
+    <!--<div class="customBtns">
+      <span class="arrowPrev"></span>
+      <span class="arrowNext"></span>
+    </div>-->
+    <div class="black" id="BLACK">
+        <div class="cont" id="C1">
+            <img src="img/close.png" class="cls" id="CL1">
+            <img src="img/DescentralizacionRecuerde.png">
+        </div>
+        <div class="cont" id="C2">
+            <img src="img/close.png" class="cls" id="CL2">
+            <img src="img/DescentralizacionTengaCuenta2.png">
+        </div>
+        
+        <div class="cont" id="C4">
+            <img src="img/close.png" class="cls" id="CL4">
+            <img src="img/DescentralizacionTengaCuenta1.png">
+        </div>
+    </div>
+
+    <!-- item container -->
+    <div class="pgs">
+         <ul id="itemContainer">
+            <li>
+              <div class="botones">
+                  <div class="cajaResalt" id="IMP1">
+                      <img src="img/tenerCuenta.png">
+                  </div>
+                  <div class="cajaResalt" id="IMP2">
+                      <img src="img/recuerde.png">
+                  </div> 
+                  <div>
+                      <a href=" http://www.banrep.gov.co/sites/default/files/publicaciones/archivos/DTSER-49.pdf" target="_blank"><img src="img/pdf-btn.png"></a>
+                  </div>&nbsp;&nbsp;
+                  <div class="cajaResalt" id="IMP4">  
+                      <img id="IMP4" src="img/tenerCuenta.png">
+                  </div>
+              </div>  
+                <div>
+                <iframe src="pag01/acordeon.html" frameborder="0" scrolling=no width="650" height="440" class="acordeon"></iframe>               
+                </div>
+                <img src="img/pagina01.png">
+            </li>
+        </ul>
+    </div>
+
+  </div>
+  <!--! end of #content -->
+</div>
+<!--! end of #container -->
+
+
+</body>
+
+</html>

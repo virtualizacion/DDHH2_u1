@@ -1,0 +1,64 @@
+.black{
+    width: 100%;
+    height: 100%;
+    background: rgba(37, 48, 16, 0.95);
+    position: absolute;
+    z-index: 3;
+}
+.menuP1{
+    width: 230px;
+    height: 290px;
+    position: absolute;
+    margin: 215px 0 0 39px;
+}
+.btnP1{
+    width: 208px;
+    height: 72px;
+    margin: 21px 0 -6px 20px;
+    cursor: pointer;
+}
+.contP1{
+    width: 555px;
+    height: 262px;
+    overflow: hidden;
+    position: absolute;
+    margin: 228px 0 0 283px;
+}
+.pdf01{
+    margin: 488px 0 0 288px;
+    position: absolute;
+}
+.acordeon{
+    position: absolute;
+    margin: 100px 0 0 10px;
+}
+.cajaResalt{
+    cursor: pointer;
+    margin: 0 0 10px 0;
+}
+.btnExtras{
+    position: absolute;
+    margin: 310px 0 0 788px;
+}
+.cls{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+}
+.cont{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cont_accordeon{
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/estilos.css">	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+	<dl>
+		
+		<dt><img src="img/impuestosacordeonunolateral.png"></dt>
+		<dd><img class="info" src="img/impuestosacordeonuno.png"></dd>
+		
+	
+		<dt><img src="img/impuestosacordeondoslateral.png"></dt>
+		<dd><img class="info" src="img/impuestosacordeondos.png"></dd>
+		
+	</dl>
+
+	<ul id="menu">
+	</ul>	
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript">
+	   $('dl dd').hide();
+       $('dl dt').click(function(){
+          if ($(this).hasClass('activo')) {
+               $(this).removeClass('activo');
+               $(this).next().slideUp();
+          } else {
+               $('dl dt').removeClass('activo');
+               $(this).addClass('activo');
+               $('dl dd').slideUp();
+               $(this).next().slideDown();
+          }
+       });
+	</script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    line-height: 1.231;   
+}
+/* Content -> Unordered Lists */
+
+div#content ul#itemContainer { list-style: none; padding:0; margin: 0;  }
+div#content ul#itemContainer li { display: inline-block; margin: 0; zoom: 1; *display:inline; }
+div#content ul#itemContainer ll li img { vertical-align: bottom; width: 125px; height: 125px; }

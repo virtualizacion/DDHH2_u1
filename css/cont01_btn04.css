@@ -1,0 +1,60 @@
+.cont04{
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.cls{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    cursor: pointer;
+}
+.btn1{
+    position: absolute;
+    margin: 170px 0 0 210px;
+}
+.btn2{
+    position: absolute;
+    margin: 135px 0 0 230px;
+}
+.btn3{
+    position: absolute;
+    margin: 140px 0 0 264px;
+}
+.btn4{
+    position: absolute;
+    margin: 180px 0 0 270px;
+}
+
+ body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}

@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../images/cont04/fondo_impacto.png) no-repeat;
+}
+.cont01{
+    width: 900px;
+    height: 550px;
+    padding: 0;
+}
+/*.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}*/
+.btn01-C1{
+    background: url(../images/cont04/btn01-C1.png) no-repeat;
+    width: 457px;
+    height: 112px;
+    cursor: pointer;
+    margin: 142px 0 0 325px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/cont04/btn02-C1.png) no-repeat;
+    width: 459px;
+    height: 112px;
+    cursor: pointer;
+    margin: 262px 0 0 116px;
+    position: absolute;
+}
+
+.btn03-C1{
+    background: url(../images/cont04/btn03-C1.png) no-repeat;
+    width: 500px;
+    height: 117px;
+    cursor: pointer;
+    margin: 380px 0 0 325px;
+    position: absolute;
+}
+.volver{
+    cursor: pointer;
+    float: right;
+    margin: -2px 0 0 0;
+    position: absolute;
+    right: 40px;
+}

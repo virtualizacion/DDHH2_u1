@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Páginas</title>
+  
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/paginas.css">
+  <script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.imageLens.js"></script>
+  <script src="js/jPages.js"></script>
+  <script src="js/paginas.js"></script>
+
+<script>
+/* when document is ready */
+$(function() {
+    /* initiate pugin assigning the desired button labels  */
+    $("div.holder").jPages({
+        containerID : "itemContainer",
+        perPage     : 1,
+        first       : false,
+        previous    : "span.arrowPrev",
+        next        : "span.arrowNext",
+        last        : false
+    });
+
+    $("#mapa").imageLens();
+});
+
+
+
+
+</script>
+
+<style type="text/css">
+    body{
+        overflow: hidden;
+    }
+.holder {
+    display: none; 
+}
+.customBtns{
+    position: absolute;
+/*    z-index: 111;*/
+    width: 860px;
+    height: 50px;
+    margin: 250px 0 0 0;
+}
+.arrowPrev, .arrowNext{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    top: 55px;
+    cursor: pointer;
+}
+.arrowPrev{
+    background: url('img/arrowP.svg') no-repeat;
+    left: 0px;
+    z-index: 100;
+    width: 30px;
+    height: 40px;
+    margin: -50px 0 0 4px;
+}
+.arrowNext{
+    background: url(img/arrowN.svg) no-repeat;
+    right: 0px;
+    width: 30px;
+    height: 40px;
+    z-index: 100;
+    margin: -50px 0 0 0px;
+}
+
+.arrowPrev.jp-disabled, .arrowNext.jp-disabled{
+    display: none;
+}
+.pgs{
+    margin: 0 auto;
+    width: 940px;
+    height: 450px;
+    position: relative; 
+}
+  
+  </style>
+
+</head>
+
+<body background="back-popUp.jpg">
+
+  <div id="container" class="clearfix">
+
+  <div id="content" class="defaults">
+
+   <!-- navigation holder -->
+    <div class="holder"></div>
+
+    <div class="black" id="BLACK">
+        <div class="cont" id="C1">
+            <img src="img/close.png" class="cls" id="CL1">
+            <img src="img/instrumentos_importante.png">
+        </div>
+        <div class="cont" id="C2">
+            <img src="img/close.png" class="cls" id="CL2">
+            <img src="img/instrumentos_tengaencuenta.png">
+        </div>
+
+        <div class="cont" id="C3">
+            <img src="img/close.png" class="cls" id="CL3">
+            <img src="img/instrumentos_recuerde.png">
+        </div>
+        
+        <div class="cont" id="C4">
+            <img src="img/close.png" class="cls" id="CL4">
+            <img src="img/instrumentos_bibliografía.png">
+        </div>
+    </div>
+
+    <!-- wrapped custom buttons for easier styling -->
+   <!-- <div class="customBtns">
+      <span class="arrowPrev"></span>
+      <span class="arrowNext"></span>
+    </div>-->
+
+    <!-- item container -->
+    <div class="pgs">
+         <ul id="itemContainer">
+            <li>
+
+                <div class="btnExtras">
+                  <div class="cajaResalt" >
+                        <img id="IMP1" src="img/tenerCuenta.png">&nbsp;&nbsp;
+                        <img id="IMP2" src="img/recuerde.png">&nbsp;&nbsp;
+                        <img id="IMP3" src="img/tenerCuenta.png">&nbsp;&nbsp;
+                        <img id="IMP4" src="img/lectura-btn.png">
+                  </div>
+               </div>
+              
+               <div class="mapa">
+                  <img id="mapa" width="800px" src="img/mapa_conceptual.png">
+               </div>
+               <img src="img/fondomapa.png">
+
+                
+            </li>
+        </ul>
+    </div>
+
+  </div>
+  <!--! end of #content -->
+</div>
+<!--! end of #container -->
+
+
+</body>
+
+</html>

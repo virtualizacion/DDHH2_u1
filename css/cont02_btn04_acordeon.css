@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif; margin: 0;}
+.acordeon_contenedor{
+    display: inline;
+    margin: 0;
+    width: 800px;
+}
+/*dt{
+    padding: 11px 20px;
+}*/
+/*dt{
+    background: #003e48;
+    color: white;
+    border-bottom: 1px solid #d38836;
+    border-top: 1px solid #ffcf9b;
+    cursor: pointer;
+}*/
+.accordeon_contenido{
+    display: inline;
+    margin: -400px 0 0 10px;
+}
+/*dd > img{
+    padding: 0;
+    margin: 0;
+}*/
+
+.accordeon_click{ display: inline; }
+
+
+.info{
+    width: 740px;
+    height: 278px;
+    margin-top: -21px;
+}

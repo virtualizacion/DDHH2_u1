@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../images/cont02/recurso5.png) no-repeat;
+}
+.cont01{
+    width: 900px;
+    height: 550px;
+    padding: 0;
+}
+.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}
+.btn01-C1{
+    background: url(../images/cont02/recurso18.png) no-repeat;
+    width: 297px;
+    height: 70px;
+    cursor: pointer;
+    margin: 143px 0 0 20px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/cont02/recurso19.png) no-repeat;
+    width: 297px;
+    height: 70px;
+    cursor: pointer;
+    margin: 240px 0 0 296px;
+    position: absolute;
+}
+.btn03-C1{
+    background: url(../images/cont02/recurso20.png) no-repeat;
+    width: 297px;
+    height: 70px;
+    cursor: pointer;
+    margin: 143px 0 0 552px;
+    position: absolute;
+}

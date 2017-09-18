@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../images/cont03/fondo.png) no-repeat;
+}
+.cont01{
+    width: 900px;
+    height: 550px;
+    padding: 0;
+}
+/*.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}*/
+.btn01-C1{
+    background: url(../images/cont03/btn01-C1.png) no-repeat;
+    width: 400px;
+    height: 105px;
+    cursor: pointer;
+    margin: 130px 0 0 465px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/cont03/btn02-C1.png) no-repeat;
+    width: 540px;
+    height: 115px;
+    cursor: pointer;
+    margin: 180px 0 0 30px;
+    position: absolute;
+}
+.btn03-C1{
+    background: url(../images/cont03/btn03-C1.png) no-repeat;
+    width: 500px;
+    height: 115px;
+    cursor: pointer;
+    margin: 310px 0 0 430px;
+    position: absolute;
+}
+.btn04-C1{
+    background: url(../images/cont03/btn04-C1.png) no-repeat;
+    width: 500px;
+    height: 115px;
+    cursor: pointer;
+    margin: 340px 0 0 100px;
+    position: absolute;
+}
+.volver{
+    cursor: pointer;
+    float: right;
+    margin: -2px 0 0 0;
+    position: absolute;
+    right: 40px;
+}

@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url(../images/back02.png) no-repeat;
+}
+.cont01{
+    width: 900px;
+    height: 550px;
+    padding: 0;
+}
+.menuC1{
+    width: 680px;
+    height: 540px;
+    margin: 10px 0 0 175px;
+}
+.btn01-C1{
+    background: url(../images/btn01-C1.png) no-repeat;
+    width: 634px;
+    height: 105px;
+    cursor: pointer;
+    margin: 131px 0 0 155px;
+    position: absolute;
+}
+.btn02-C1{
+    background: url(../images/btn02-C1.png) no-repeat;
+    width: 569px;
+    height: 118px;
+    cursor: pointer;
+    margin: 245px 0 0 -69px;
+    position: absolute;
+}
+.btn03-C1{
+    background: url(../images/btn03-C1.png) no-repeat;
+    width: 350px;
+    height: 117px;
+    cursor: pointer;
+    margin: 360px 0 0 180px;
+    position: absolute;
+}
+.telonCont {
+    background: url(../images/telon.png) no-repeat;
+    width: 875px;
+    height: 540px;
+    position: absolute;
+    z-index: 2;
+    top: 600px;
+    margin: 0 14px;
+}
+.volver{
+    cursor: pointer;
+    float: right;
+    margin: -2px 0 0 0;
+    position: absolute;
+    right: 40px;
+}
